@@ -1,9 +1,12 @@
 {
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "dependencies": {
-    "express": "^4.22.1"
+    "express": "^4.22.3",
+    "file-type": "^16.5.4",
+    "multer": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
